@@ -1,7 +1,7 @@
 package japanese
 
 type FMABrotherhood struct {
-	Characters string `json:"characters"`
-	Cities     string `json:"cities"`
-	Countries  string `json:"countries"`
+	Characters string `yaml:"characters"`
+	Cities     string `yaml:"cities"`
+	Countries  string `yaml:"countries"`
 }
