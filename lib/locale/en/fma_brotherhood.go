@@ -58,22 +58,25 @@ var Characters = []string{
 	"Sheska",
 }
 
-//cities:
-//  - East City
-//  - Rush Valley
-//  - Resembool
-//  - Dublith
-//  - Central City
-//  - Ishval
-//  - Youswell
-//  - North City
-//  - Lior
-//  - Pendleton
-//  - Riviere
-//countries:
-//  - Amestris
-//  - Aerugo
-//  - Creta
-//  - Drachma
-//  - Xerxes
-//  - Xing
+var Cities = []string{
+	"East City",
+	"Rush Valley",
+	"Resembool",
+	"Dublith",
+	"Central City",
+	"Ishval",
+	"Youswell",
+	"North City",
+	"Lior",
+	"Pendleton",
+	"Riviere",
+}
+
+var Countries = []string{
+	"Amestris",
+	"Aerugo",
+	"Creta",
+	"Drachma",
+	"Xerxes",
+	"Xing",
+}
