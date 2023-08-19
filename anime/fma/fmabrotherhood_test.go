@@ -8,14 +8,14 @@ import (
 
 var got interface{}
 
-func TestFMARandomCharacter(t *testing.T) {
+func TestRandomCharacter(t *testing.T) {
 	got = fma.RandomCharacter()
 	expected := true
 
 	_, ok := got.(string)
 
 	if ok != expected {
-		t.Errorf("FMARandomCharacter test should return %t, but it returned %t.", expected, ok)
+		t.Errorf("RandomCharacter test should return %t, but it returned %t.", expected, ok)
 	}
 }
 
