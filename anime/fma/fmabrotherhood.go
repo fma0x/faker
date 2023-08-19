@@ -11,3 +11,9 @@ func RandomCharacter() string {
 	character := en.Characters[rand.Intn(len(en.Characters))]
 	return character
 }
+
+// Random FullMetal Alchemist Brotherhood cities names.
+func RandomCity() string {
+	city := en.Cities[rand.Intn(len(en.Cities))]
+	return city
+}
