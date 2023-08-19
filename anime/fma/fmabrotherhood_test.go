@@ -29,3 +29,14 @@ func TestRandomCity(t *testing.T) {
 		t.Errorf("RandomCity test should return %t, but it returned %t.", expected, ok)
 	}
 }
+
+func TestRandomCountry(t *testing.T) {
+	got = fma.RandomCountry()
+	expected := true
+
+	_, ok := got.(string)
+
+	if ok != expected {
+		t.Errorf("RandomCountry test should return %t, but it returned %t.", expected, ok)
+	}
+}
