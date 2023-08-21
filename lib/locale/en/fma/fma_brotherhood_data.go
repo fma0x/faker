@@ -1,4 +1,4 @@
-package en
+package fma
 
 var Characters = []string{
 	"Edward Elric",
