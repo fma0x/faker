@@ -12,12 +12,12 @@ func RandomCharacter() string {
 
 // Random FullMetal Alchemist Brotherhood cities names.
 func RandomCity() string {
-	city := Cities[rand.Intn(len(Cities))]
+	city := cities[rand.Intn(len(cities))]
 	return city
 }
 
 // Random FullMetal Alchemist Brotherhood countries names.
 func RandomCountry() string {
-	country := Countries[rand.Intn(len(Countries))]
+	country := countries[rand.Intn(len(countries))]
 	return country
 }

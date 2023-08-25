@@ -58,7 +58,7 @@ var characters = []string{
 	"Sheska",
 }
 
-var Cities = []string{
+var cities = []string{
 	"East City",
 	"Rush Valley",
 	"Resembool",
@@ -72,7 +72,7 @@ var Cities = []string{
 	"Riviere",
 }
 
-var Countries = []string{
+var countries = []string{
 	"Amestris",
 	"Aerugo",
 	"Creta",
