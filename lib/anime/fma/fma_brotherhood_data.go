@@ -1,6 +1,6 @@
 package fma
 
-var Characters = []string{
+var characters = []string{
 	"Edward Elric",
 	"Alphonse Elric",
 	"Roy Mustang",
