@@ -1,7 +1,7 @@
 // package with brazilian names
-package pt_br
+package ptbr
 
-var FirstName = []string{
+var firstName = []string{
 	"Helena",
 	"Miguel",
 	"Alice",
