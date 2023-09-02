@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sjerusallem/faker/lib/anime/one_piece"
+	"github.com/fma0x/faker/lib/anime/one_piece"
 )
 
 func TestOnePieceRandomData(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sjerusallem/faker/lib/ptbr"
+	"github.com/fma0x/faker/lib/ptbr"
 )
 
 func TestPtBrRandomName(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sjerusallem/faker/lib/anime/fma"
+	"github.com/fma0x/faker/lib/anime/fma"
 )
 
 func TestFMARandomData(t *testing.T) {
